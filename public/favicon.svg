@@ -1,12 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <!-- Gear (bottom half) -->
-  <path d="M32 62c-2 0-4-1-5-3l-1-3-3-1c-3 0-5-2-6-4l-1-3-3-2c-2-2-2-5 0-7l2-2-1-3c-1-3 0-6 2-8l2-2-2-3c-2-3-2-7 1-9l3-2-1-4c-1-3 0-6 3-7l4-1v-4c0-3 2-5 5-5h2c3 0 5 2 5 5v4l4 1c3 1 4 4 3 7l-1 4 3 2c3 2 3 6 1 9l-2 3 2 2c2 2 3 5 2 8l-1 3 2 2c2 2 2 5 0 7l-3 2-1 3c-1 2-3 4-6 4l-3 1c-1 2-3 3-5 3z" fill="#5ec089"/>
-  <!-- Inner circle -->
-  <circle cx="32" cy="32" r="16" fill="#8dd8ac"/>
-  <!-- Hard hat dome -->
-  <path d="M16 34c0-10 7-18 16-18s16 8 16 18z" fill="#f4a9bc"/>
+  <!-- Hard hat side view -->
+  <!-- Hat dome -->
+  <path d="M8 40 C8 22 18 10 32 10 C46 10 54 18 56 28 L56 34 C56 34 54 36 50 36 L14 36 C10 36 8 38 8 40 Z" fill="#f4a9bc"/>
   <!-- Hat brim -->
-  <rect x="12" y="32" width="40" height="6" rx="3" fill="#ec7a98"/>
-  <!-- Center -->
-  <circle cx="32" cy="32" r="6" fill="#3da86d"/>
+  <rect x="4" y="34" width="56" height="6" rx="3" fill="#ec7a98"/>
+  <!-- Hat ridge line -->
+  <path d="M18 32 C22 18 36 14 46 22" fill="none" stroke="#e04f76" stroke-width="1.5" opacity="0.5"/>
+  <!-- Highlight -->
+  <ellipse cx="24" cy="22" rx="8" ry="4" fill="white" opacity="0.3" transform="rotate(-10 24 22)"/>
 </svg>
