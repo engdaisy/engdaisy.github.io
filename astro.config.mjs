@@ -3,6 +3,6 @@ import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
   integrations: [tailwind()],
-  site: 'https://guigheno.github.io',
+  site: 'https://engdaisy.github.io',
   output: 'static',
 });
