@@ -77,7 +77,7 @@ const categories = ['Todos', 'Residencial', 'Institucional', 'Corporativo'];
             class={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
               i === 0
                 ? 'bg-accent-400 text-white shadow-lg shadow-accent-400/25'
-                : 'glass text-sand-600 hover:text-sand-900 glass-hover'
+                : 'glass text-sand-800 hover:text-sand-900 glass-hover'
             }`}
             data-filter={cat}
           >
@@ -157,7 +157,7 @@ const categories = ['Todos', 'Residencial', 'Institucional', 'Corporativo'];
               <h3 class="font-display font-semibold text-sand-900 text-lg mb-2 group-hover:text-accent-500 transition-colors">
                 {project.title}
               </h3>
-              <p class="text-sm text-sand-600 leading-relaxed mb-4">
+              <p class="text-sm text-sand-800 leading-relaxed mb-4">
                 {project.description}
               </p>
               {'clients' in project && (
@@ -273,10 +273,10 @@ const categories = ['Todos', 'Residencial', 'Institucional', 'Corporativo'];
 
         filterTabs.forEach((t) => {
           t.classList.remove('bg-accent-400', 'text-white', 'shadow-lg', 'shadow-accent-400/25');
-          t.classList.add('glass', 'text-sand-600');
+          t.classList.add('glass', 'text-sand-800');
         });
         tab.classList.add('bg-accent-400', 'text-white', 'shadow-lg', 'shadow-accent-400/25');
-        tab.classList.remove('glass', 'text-sand-600');
+        tab.classList.remove('glass', 'text-sand-800');
 
         projectCards.forEach((card) => {
           const category = card.getAttribute('data-category');
